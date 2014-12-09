@@ -1,0 +1,25 @@
+{
+	"name":"Qiita Color Change",
+	"version":"0.1",
+	"manifest_version":2,
+
+	"description":"Qiitaの記事ページのヘッダ背景色を変えます。",
+
+	"icons":{
+		"48":"icon48.png"
+	},
+
+	"permissions":[
+		"tabs","http://*/*"
+	],
+
+	"content_scripts":[
+		{
+			"matches":["http://qiita.com/*/items/*"],
+			"css": ["style.css"],
+			"js":["jquery.min.js","script.js"]
+		}
+	],
+	"web_accessible_resources": ["style.css"]
+
+}

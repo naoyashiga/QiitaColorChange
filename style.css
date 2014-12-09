@@ -1,0 +1,36 @@
+.itemsShowHeader{
+	background:#d9ecca;
+	color:#333;
+	-webkit-transition: all 0.3s ease; 
+}
+
+.itemsShowHeaderTitle_status{
+	color:#333;
+	-webkit-transition: all 0.3s ease; 
+}
+
+.itemsShowHeaderTitle_status li a:visited{
+	color:#333;
+	-webkit-transition: all 0.3s ease; 
+}
+
+.itemsShowHeaderTitle_status li a:link{
+	color:#333;
+	-webkit-transition: all 0.3s ease; 
+}
+
+.itemsShowHeaderTitle_status li:after{
+	color:#333;
+	-webkit-transition: all 0.3s ease; 
+}
+
+.itemsShowHeaderStock_countText{
+	color:#333;
+	-webkit-transition: all 0.3s ease; 
+}
+
+.itemsShowHeader-adcalItem{
+	background:#e7cece;
+	color:#333;
+	-webkit-transition: all 0.3s ease; 
+}
